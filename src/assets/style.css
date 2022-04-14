@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.open {
+  @apply block ml-2 bg-green-400 h-full z-10;
+}
+.btn-home {
+  @apply ml-1 lg:ml-0;
+}
+.change {
+  @apply block;
+}
